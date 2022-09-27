@@ -1,0 +1,445 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ru' Physical Memory: 16005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/labs unity/Lab
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64591
+Successfully changed project path to: D:/labs unity/Lab
+D:/labs unity/Lab
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 118.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/labs unity/Lab/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002982 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 120.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (563ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006255 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\labs unity\Lab\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\labs unity\Lab\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 184.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1378ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1147ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (185ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4533.
+Memory consumption went from 151.6 MB to 151.5 MB.
+Total: 2.834400 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.382300 ms  DeleteObjects: 0.070400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47928.381686 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 6.asset
+  artifactKey: Guid(6250a93531604b343beb51151354f4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 6.asset using Guid(6250a93531604b343beb51151354f4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d47a050a45f541b67dc2e9a93f6bbb') in 0.035228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone6_Minifantasy_ForgottenPlainsTiles_50.asset
+  artifactKey: Guid(a91cc2f3b25c68041ab456cdfdad6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone6_Minifantasy_ForgottenPlainsTiles_50.asset using Guid(a91cc2f3b25c68041ab456cdfdad6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588d58d735e5d26011b53f583a510cfa') in 0.027289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone17_Minifantasy_ForgottenPlainsTiles_27.asset
+  artifactKey: Guid(29dd4e89c199c7141816144afd68ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone17_Minifantasy_ForgottenPlainsTiles_27.asset using Guid(29dd4e89c199c7141816144afd68ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4640fcef77ca23837d94a5656237a553') in 0.007411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone15_Minifantasy_ForgottenPlainsTiles_142.asset
+  artifactKey: Guid(916992d38de11f643899af9ceae9d535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone15_Minifantasy_ForgottenPlainsTiles_142.asset using Guid(916992d38de11f643899af9ceae9d535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eda22c3a845bde40aac3e25d482fd1') in 0.007337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/GrassLong.prefab
+  artifactKey: Guid(395806f958291e448b8557dbb80736dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/GrassLong.prefab using Guid(395806f958291e448b8557dbb80736dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18a6c334ec83cd4c5198851d44e2f5f') in 0.062490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 5.asset
+  artifactKey: Guid(9013595c1588aa447b93b6145409207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 5.asset using Guid(9013595c1588aa447b93b6145409207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a29c3dbd5f79d77c0874565291e25') in 0.005355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone24_Minifantasy_ForgottenPlainsTiles_81.asset
+  artifactKey: Guid(a7a458d5ea5c5d045a5c085474633334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone24_Minifantasy_ForgottenPlainsTiles_81.asset using Guid(a7a458d5ea5c5d045a5c085474633334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d115034765e2f9b7cef1ca082a97b7') in 0.009342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 10.asset
+  artifactKey: Guid(bce17ed72a698ed4eb097410ae6a0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 10.asset using Guid(bce17ed72a698ed4eb097410ae6a0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69483f0e24feeaf0f87a8621761bf02') in 0.005507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs
+  artifactKey: Guid(7916d3b29e740c54b99b1cb32645f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs using Guid(7916d3b29e740c54b99b1cb32645f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ae96dd63bcdb937b10a1b88678a5c8') in 0.004120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Creeper.prefab
+  artifactKey: Guid(cfcdd90acd280dc4bb804a4d1d482156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Creeper.prefab using Guid(cfcdd90acd280dc4bb804a4d1d482156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c155fd56266c1f9af0d2d2199e34d27') in 0.011446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 15.asset
+  artifactKey: Guid(b70bbeb2e3804284c98b18ec25c18551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 15.asset using Guid(b70bbeb2e3804284c98b18ec25c18551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa2034075df8639b73b97a15d1febcd') in 0.005255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Cattail.prefab
+  artifactKey: Guid(507dfcf51b090bd48bd9160972402852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Cattail.prefab using Guid(507dfcf51b090bd48bd9160972402852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91db2c04051b9b5e986a1856a788d097') in 0.011525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 14.asset
+  artifactKey: Guid(21aa2f9696d55bb4daff51f6b7d838b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 14.asset using Guid(21aa2f9696d55bb4daff51f6b7d838b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8b80cd6809f77fc1c423374e1aa4f3') in 0.005201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 6.asset
+  artifactKey: Guid(3514d4b83e9fb0949a5db8105f768dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 6.asset using Guid(3514d4b83e9fb0949a5db8105f768dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc33573b7bda924a3b25d4cbd75a4b1') in 0.004778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 9.asset
+  artifactKey: Guid(e02e8f58d15b92c4fbfde5f38de394bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 9.asset using Guid(e02e8f58d15b92c4fbfde5f38de394bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f391d1306fbe8daf106286030fc1ff1') in 0.005881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone23_Minifantasy_ForgottenPlainsTiles_80.asset
+  artifactKey: Guid(4732a0f72cd3e424cb9fe218ac1f1573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone23_Minifantasy_ForgottenPlainsTiles_80.asset using Guid(4732a0f72cd3e424cb9fe218ac1f1573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3998a06bc95a4230fa08c70ea672c1') in 0.008804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Flower.prefab
+  artifactKey: Guid(90ff263e94c94f0469c1ba4d7e3bff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Prefabs/Props/Flower.prefab using Guid(90ff263e94c94f0469c1ba4d7e3bff99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a13305f39b1562b9323a54d7de1e5b') in 0.010878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 13.asset
+  artifactKey: Guid(3e85f2f058fd2204eb27908302247f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 13.asset using Guid(3e85f2f058fd2204eb27908302247f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7f7ea13ab4623f796e4e9012050582') in 0.004457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone8_Minifantasy_ForgottenPlainsTiles_77.asset
+  artifactKey: Guid(8372b5c78f8ca4843a58465e9707d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone8_Minifantasy_ForgottenPlainsTiles_77.asset using Guid(8372b5c78f8ca4843a58465e9707d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cf5cffa382aade04a015357c06986a') in 0.009693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone9_Minifantasy_ForgottenPlainsTiles_78.asset
+  artifactKey: Guid(4a3f4c0099c7651488f43f855e473043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone9_Minifantasy_ForgottenPlainsTiles_78.asset using Guid(4a3f4c0099c7651488f43f855e473043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61874c7dfc6f54fbf1ec1fc1c37e5c16') in 0.009000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 12.asset
+  artifactKey: Guid(2b86285771a88b24bad3a3a1bc425a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 12.asset using Guid(2b86285771a88b24bad3a3a1bc425a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8a042dfc7f388d3e3078c87c6c98bf') in 0.005933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone7_Minifantasy_ForgottenPlainsTiles_76.asset
+  artifactKey: Guid(c9ef8023fd9c5a14caf29175a54f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone7_Minifantasy_ForgottenPlainsTiles_76.asset using Guid(c9ef8023fd9c5a14caf29175a54f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019e0fccaea198c18a3f3c46c4b7a590') in 0.008469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone25_Minifantasy_ForgottenPlainsTiles_111.asset
+  artifactKey: Guid(daed9aecc057f70418c3ee1dfa47a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone25_Minifantasy_ForgottenPlainsTiles_111.asset using Guid(daed9aecc057f70418c3ee1dfa47a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432dc92d66f82f8ef77c0fbeba471a4c') in 0.009215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 1.asset
+  artifactKey: Guid(5085e6e88ca8c574cbe6b4f901b31b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 1.asset using Guid(5085e6e88ca8c574cbe6b4f901b31b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12750ec25e94545d38a616ce71c2eec') in 0.005038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 3.asset
+  artifactKey: Guid(c2303110f115ba048a3cc71394c065b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 3.asset using Guid(c2303110f115ba048a3cc71394c065b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5824e9c231de5ec28ca3d22445b7330') in 0.005285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 9.asset
+  artifactKey: Guid(3b784a177e0529e4d8c81ca07feb9ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 9.asset using Guid(3b784a177e0529e4d8c81ca07feb9ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f02ec612481d63e8292701773d263da') in 0.005163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 1.asset
+  artifactKey: Guid(a0fa3efb1861a604cbdf489fc0530aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 1.asset using Guid(a0fa3efb1861a604cbdf489fc0530aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c67c2e44ed6708dff62d42e329c360') in 0.005187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone27_Minifantasy_ForgottenPlainsTiles_113.asset
+  artifactKey: Guid(21e47b5b8dcad7f458eb168314e1d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone27_Minifantasy_ForgottenPlainsTiles_113.asset using Guid(21e47b5b8dcad7f458eb168314e1d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bef9a4a0e22316d495a65b0a50e5ee') in 0.011877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone1_Minifantasy_ForgottenPlainsTiles_23.asset
+  artifactKey: Guid(5a71fbe2846d85342badb6270d3207cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone1_Minifantasy_ForgottenPlainsTiles_23.asset using Guid(5a71fbe2846d85342badb6270d3207cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afac03a66837f693101d18c465e4a8f') in 0.009629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/FP Lake Animated.prefab
+  artifactKey: Guid(aae5b435244e2f84f8f5cd1bbaa7e5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/FP Lake Animated.prefab using Guid(aae5b435244e2f84f8f5cd1bbaa7e5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daa9c6274faa424ce5224997c0c85bd') in 0.022150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone5_Minifantasy_ForgottenPlainsTiles_49.asset
+  artifactKey: Guid(4fa010fb9a0617d48a284b5a5715609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone5_Minifantasy_ForgottenPlainsTiles_49.asset using Guid(4fa010fb9a0617d48a284b5a5715609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ad0306ffe162df595727fad95dbf91') in 0.009515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 3.asset
+  artifactKey: Guid(70baf0cd460475d498212ca64cca41f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 3.asset using Guid(70baf0cd460475d498212ca64cca41f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0f70565649b2ec209cd73de810a11d') in 0.004873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 11.asset
+  artifactKey: Guid(7cba387ec67599145a31895c20c1e75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 11.asset using Guid(7cba387ec67599145a31895c20c1e75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efd9fa706e79388b13ea3d9e98578e9') in 0.005410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 4.asset
+  artifactKey: Guid(dc6b30772b7099843a7dca6957941411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeGrass 4.asset using Guid(dc6b30772b7099843a7dca6957941411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e705d167a999dea6d4936abdfd7435b') in 0.005321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 13.asset
+  artifactKey: Guid(b3116013e535439429402f5cb9a6ac8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Animated Tiles/Lake/LakeDirt 13.asset using Guid(b3116013e535439429402f5cb9a6ac8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba599203f2e368d84add98ba5662e365') in 0.005422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone14_Minifantasy_ForgottenPlainsTiles_141.asset
+  artifactKey: Guid(04b7ddfc44d600f4d9744e7031ceb026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone14_Minifantasy_ForgottenPlainsTiles_141.asset using Guid(04b7ddfc44d600f4d9744e7031ceb026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6490ded4a4496a1a7e05fcd9176173de') in 0.010121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone12_Minifantasy_ForgottenPlainsTiles_110.asset
+  artifactKey: Guid(ec2830431f9b064479ead29883e4b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KrishnaPalacio/MINIFANTASY Forgotten Plains - Super Low Res 2D Pixel Art by Krishna Palacio/Tile Palettes/Standard Tiles/Ground/Cobblestone12_Minifantasy_ForgottenPlainsTiles_110.asset using Guid(ec2830431f9b064479ead29883e4b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0b3465e3355befde54f370173a9844') in 0.009465 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\labs unity\Lab\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\labs unity\Lab\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1071ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4546.
+Memory consumption went from 155.4 MB to 155.4 MB.
+Total: 3.645500 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.157600 ms MarkObjects: 3.133600 ms  DeleteObjects: 0.027600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
